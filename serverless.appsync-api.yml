@@ -1,0 +1,6 @@
+name: appsynctwitterclone
+schema: schema.api.graphql
+authentication:
+    type: 'AMAZON_COGNITO_USER_POOLS'
+    config:
+     userPoolId: !Ref CognitoUserPool
